@@ -54,7 +54,7 @@
                         <tr>
                             <td>{$patient.name|escape}</td>
                             <td>{$patient.mob|escape}</td>
-                            <td>{$patient.date|escape}</td>
+                            <td>{$patient.date|date_format:"%Y-%m-%d"}</td>
                             <td>{$patient.doctor|escape}</td>
                             <td>{$patient.department|escape}</td>
                             <td>
